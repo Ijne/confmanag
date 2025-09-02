@@ -1,0 +1,15 @@
+#!/bin/bash
+
+name=$1
+lenth=${#name}
+echo -n "+"
+for (( i=0; i<$lenth; i++ )); do
+    echo -n "-"
+done
+echo "+"
+echo "|"$name"|"
+echo -n "+"
+for (( i=0; i<$lenth; i++ )); do
+    echo -n "-"
+done
+echo "+"
