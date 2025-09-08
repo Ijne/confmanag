@@ -1,0 +1,4 @@
+#!/bin/bash
+
+touch "$1"
+sudo cp "$1" /usr/local/bin
