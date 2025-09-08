@@ -1,1 +1,1 @@
-cut -d: -f1 /etc/passwd
+cat /etc/passwd | sort | grep -o '^[A-Za-z0-9]*'
